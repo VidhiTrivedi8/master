@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:PUBLISH
+PRODID:-//LogMeIn//GoToWebinar//EN
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Europe/London
+LAST-MODIFIED:20230104T023643Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+TZNAME:BST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:GMT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230111T043720Z
+DTSTART;TZID=Europe/London:20230118T100000
+DTEND;TZID=Europe/London:20230118T110000
+SUMMARY:GoToWebinar - Getting Started with Embedded Linux Security
+LOCATION:GoToWebinar - See conference call information below
+UID:2088704573@logmein.com
+ORGANIZER:webinars@doulos.com
+DESCRIPTION:1. Click and join at the specified time and date:\nhttps://gl
+ obal.gotowebinar.com/join/1116989892388798299/837346067\nNote: This link
+  should not be shared with others\; it is unique to you.\n\nIn this webi
+ nar\, we examine some of the main features and tools which can be used t
+ o make your embedded Linux system more secure. We can see how features o
+ f the compiler\, the kernel and Linux user space can be used to satisfy 
+ the requirements of one of the main security standards used for consumer
+  electronic devices. We also review some of the hardware features provid
+ ed by SoC vendors to increase security\, using the Versal® ACAP (Adaptiv
+ e Compute Acceleration Platform) from AMD Xilinx as an example.\n\nAgend
+ a:\n- Introduction to security\n- Tools and secure compilation\n- Securi
+ ng the kernel\n- Hardening the boot process\n- Vendor support for securi
+ ty\n
+X-ALT-DESC;FMTTYPE=text/html:<HTML><HEAD><TITLE></TITLE><BODY><FONT SIZE=
+ 2><b>1. Click and join at the specified time and date:</b></FONT><BR><FO
+ NT SIZE=2>https://global.gotowebinar.com/join/1116989892388798299/837346
+ 067</FONT><BR><FONT SIZE=2>Note: This link should not be shared with oth
+ ers\; it is unique to you.</FONT><BR><BR><FONT SIZE=2>In this webinar\, 
+ we examine some of the main features and tools which can be used to make
+  your embedded Linux system more secure. We can see how features of the 
+ compiler\, the kernel and Linux user space can be used to satisfy the re
+ quirements of one of the main security standards used for consumer elect
+ ronic devices. We also review some of the hardware features provided by 
+ SoC vendors to increase security\, using the Versal® ACAP (Adaptive Comp
+ ute Acceleration Platform) from AMD Xilinx as an example.\n\nAgenda:\n- 
+ Introduction to security\n- Tools and secure compilation\n- Securing the
+  kernel\n- Hardening the boot process\n- Vendor support for security</FO
+ NT><BR></BODY></HTML>
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
